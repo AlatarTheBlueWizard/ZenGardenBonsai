@@ -1,0 +1,236 @@
+//imports
+@import 'colors';
+@import 'fonts';
+
+//small
+@media only screen and (max-width: 689px) {
+    .intro {
+        h2 {
+            font-size: 12px;
+            text-align: center;
+            font-family: $main_font;
+        }
+        h1 {
+            text-align: center;
+            font-family: $main_font;
+        }
+        .summary {
+            text-align: center;
+            font-family: $main_font;
+            font-size: 14px;
+            background-color: $light_tan;
+            border-radius: 5px;
+            a {
+                color: $darkGreen;
+            }
+        }
+        .preamble {
+            p {
+                display: none;
+            }
+            h3 {
+                border: 3px solid black;
+                border-radius: 5px;
+                background-color: $light_tan;
+                text-align: center;
+                padding: 10px 0px 10px 0px;
+                font-family: $main_font;
+            }
+            &:hover {
+                p {
+                    display: block;
+                    border: 4px solid black;
+                    background-color: $darker_green;
+                    font-family: $main_font;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .explanation {
+        p {
+        display: none;
+        }
+        h3 {
+            border: 3px solid black;
+            border-radius: 5px;
+            background-color: $light_tan;
+            text-align: center;
+            padding: 10px 0px 10px 0px;
+            font-family: $main_font;
+        }
+        &:hover {
+            p {
+                display: block;
+                border: 4px solid black;
+                background-color: $darker_green;
+                font-family: $main_font;
+                font-size: 14px;
+            }
+        }
+    }
+    .participation {
+        p {
+        display: none;
+        }
+        h3 {
+            border: 3px solid black;
+            border-radius: 5px;
+            background-color: $light_tan;
+            text-align: center;
+            padding: 10px 0px 10px 0px;
+            font-family: $main_font;
+        }
+        &:hover {
+            p {
+                display: block;
+                border: 4px solid black;
+                background-color: $darker_green;
+                font-family: $main_font;
+                font-size: 14px;
+                a {
+                    color: $brown;
+                }
+            }
+        }
+    }
+    .benefits {
+        p {
+        display: none;
+        }
+        h3 {
+            border: 3px solid black;
+            border-radius: 5px;
+            background-color: $light_tan;
+            text-align: center;
+            padding: 10px 0px 10px 0px;
+            font-family: $main_font;
+        }
+        &:hover {
+            p {
+                display: block;
+                border: 4px solid black;
+                background-color: $darker_green;
+                font-family: $main_font;
+                font-size: 14px;
+            }
+        }
+    }
+    .requirements {
+        p {
+        display: none;
+        }
+        h3 {
+            border: 3px solid black;
+            border-radius: 5px;
+            background-color: $light_tan;
+            text-align: center;
+            padding: 10px 0px 10px 0px;
+            font-family: $main_font;
+        }
+        &:hover {
+            p {
+                display: block;
+                border: 4px solid black;
+                background-color: $darker_green;
+                font-family: $main_font;
+                font-size: 14px;
+                a {
+                    color: $brown;
+                }
+            }
+        }
+    }
+    footer {
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: 800;
+            font-family: $main_font;
+            &:hover {
+                background-color: gray;
+                color: white;
+                font-family: $main_font;
+            }
+        }
+        text-align: center;
+    }
+    .design-selection {
+        ul {
+            display: none;
+        }
+        h3 {
+            border: 3px solid black;
+            border-radius: 5px;
+            background-color: $light_tan;
+            text-align: center;   
+            padding: 10px 0px 10px 0px;
+            font-family: $main_font;
+        }
+        &:hover {
+            ul {
+                display: block;
+                background-color: $darker_green;
+                list-style-type: hiragana-iroha;
+                a {
+                    color: $brown;
+                    text-decoration: none;
+                    font-family: $main_font;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .design-archives {
+        ul {
+            display: none;
+        }
+        h3 {
+            border: 3px solid black;
+            border-radius: 5px;
+            background-color: $light_tan;
+            text-align: center;   
+            padding: 10px 0px 10px 0px;
+            font-family: $main_font;
+        }
+        &:hover {
+            ul {
+                display: block;
+                background-color: $darker_green;
+                list-style-type: hiragana-iroha;
+                a {
+                    color: $brown;
+                    text-decoration: none;
+                    font-family: $main_font;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .zen-resources {
+        ul {
+            display: none;
+        }
+        h3 {
+            border: 3px solid black;
+            border-radius: 5px;
+            background-color: $light_tan;
+            text-align: center;   
+            padding: 10px 0px 10px 0px;
+            font-family: $main_font;
+        }
+        &:hover {
+            ul {
+                display: block;
+                background-color: $darker_green;
+                list-style-type: hiragana-iroha;
+                a {
+                    color: $brown;
+                    text-decoration: none;
+                    font-family: $main_font;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

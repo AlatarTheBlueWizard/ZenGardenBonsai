@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&family=Open+Sans&display=swap");
+@media only screen and (max-width: 689px) {
+  .intro h2 {
+    font-size: 12px;
+    text-align: center;
+    font-family: "Merienda One", cursive; }
+  .intro h1 {
+    text-align: center;
+    font-family: "Merienda One", cursive; }
+  .intro .summary {
+    text-align: center;
+    font-family: "Merienda One", cursive;
+    font-size: 14px;
+    background-color: #d9c09e;
+    border-radius: 5px; }
+    .intro .summary a {
+      color: #026440; }
+  .intro .preamble p {
+    display: none; }
+  .intro .preamble h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .intro .preamble:hover p {
+    display: block;
+    border: 4px solid black;
+    background-color: #7AC247;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+
+  .explanation p {
+    display: none; }
+  .explanation h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .explanation:hover p {
+    display: block;
+    border: 4px solid black;
+    background-color: #7AC247;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+
+  .participation p {
+    display: none; }
+  .participation h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .participation:hover p {
+    display: block;
+    border: 4px solid black;
+    background-color: #7AC247;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+    .participation:hover p a {
+      color: #422D00; }
+
+  .benefits p {
+    display: none; }
+  .benefits h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .benefits:hover p {
+    display: block;
+    border: 4px solid black;
+    background-color: #7AC247;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+
+  .requirements p {
+    display: none; }
+  .requirements h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .requirements:hover p {
+    display: block;
+    border: 4px solid black;
+    background-color: #7AC247;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+    .requirements:hover p a {
+      color: #422D00; }
+
+  footer {
+    text-align: center; }
+    footer a {
+      text-decoration: none;
+      color: black;
+      font-weight: 800;
+      font-family: "Merienda One", cursive; }
+      footer a:hover {
+        background-color: gray;
+        color: white;
+        font-family: "Merienda One", cursive; }
+
+  .design-selection ul {
+    display: none; }
+  .design-selection h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .design-selection:hover ul {
+    display: block;
+    background-color: #7AC247;
+    list-style-type: hiragana-iroha; }
+    .design-selection:hover ul a {
+      color: #422D00;
+      text-decoration: none;
+      font-family: "Merienda One", cursive;
+      font-size: 14px; }
+
+  .design-archives ul {
+    display: none; }
+  .design-archives h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .design-archives:hover ul {
+    display: block;
+    background-color: #7AC247;
+    list-style-type: hiragana-iroha; }
+    .design-archives:hover ul a {
+      color: #422D00;
+      text-decoration: none;
+      font-family: "Merienda One", cursive;
+      font-size: 14px; }
+
+  .zen-resources ul {
+    display: none; }
+  .zen-resources h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .zen-resources:hover ul {
+    display: block;
+    background-color: #7AC247;
+    list-style-type: hiragana-iroha; }
+    .zen-resources:hover ul a {
+      color: #422D00;
+      text-decoration: none;
+      font-family: "Merienda One", cursive;
+      font-size: 14px; } }
+@media (min-width: 690px) {
+  #css-zen-garden {
+    background-image: url("../assets/images/zenpic.jpg");
+    background-size: cover; }
+
+  .page-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 10px; }
+
+  .intro {
+    grid-column: 1/3;
+    grid-row: 1/1; }
+
+  .main supporting {
+    grid-column: 1/2;
+    grid-row: 2; }
+
+  .sidebar {
+    grid-column: 2/3;
+    grid-row: 2;
+    display: flex; }
+
+  footer {
+    grid-column: 1/3;
+    grid-row: 3; }
+
+  div[role="article"] p {
+    display: block;
+    z-index: 0;
+    position: relative; }
+
+  .wrapper {
+    display: flex;
+    align-self: flex-end; }
+    .wrapper div {
+      bottom: 30px; }
+      .wrapper div ul {
+        bottom: 70px;
+        margin-left: 0; }
+
+  .intro h1 {
+    font-family: "Merienda One", cursive;
+    font-size: 64px; }
+  .intro h2 {
+    font-size: 18px;
+    color: black;
+    font-family: "Merienda One", cursive; }
+  .intro .summary {
+    text-align: center;
+    background: white;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.774) 55%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 5px;
+    color: black;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+    .intro .summary a {
+      color: #e9ab73; }
+
+  .preamble h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .preamble p {
+    background-color: #422D00;
+    color: #d9c09e;
+    border: 3px solid #262627;
+    border-radius: 5px;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+
+  .explanation h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .explanation p {
+    background-color: #422D00;
+    color: #d9c09e;
+    border: 3px solid #262627;
+    border-radius: 5px;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+
+  .participation h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .participation p {
+    background-color: #422D00;
+    color: #d9c09e;
+    border: 3px solid #262627;
+    border-radius: 5px;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+    .participation p a {
+      color: #e9ab73; }
+
+  .benefits h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .benefits p {
+    background-color: #422D00;
+    color: #d9c09e;
+    border: 3px solid #262627;
+    border-radius: 5px;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+
+  .requirements h3 {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #d9c09e;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: "Merienda One", cursive; }
+  .requirements p {
+    background-color: #422D00;
+    color: #d9c09e;
+    border: 3px solid #262627;
+    border-radius: 5px;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+    .requirements p a {
+      color: #e9ab73; }
+
+  .design-selection h3 {
+    font-size: 14px;
+    color: #e9ab73;
+    font-family: "Merienda One", cursive; }
+  .design-selection ul {
+    list-style-type: hiragana-iroha; }
+    .design-selection ul li {
+      background-color: #026440;
+      color: #422D00;
+      border: 3px solid #262627;
+      border-radius: 5px;
+      font-weight: bold; }
+      .design-selection ul li a {
+        text-decoration: none !important;
+        color: #e9ab73;
+        font-family: "Merienda One", cursive;
+        font-size: 14px; }
+
+  .design-archives h3 {
+    font-size: 14px;
+    color: #e9ab73;
+    font-family: "Merienda One", cursive; }
+  .design-archives ul {
+    list-style-type: hiragana-iroha; }
+    .design-archives ul li {
+      background-color: #026440;
+      color: #422D00;
+      border: 3px solid #262627;
+      border-radius: 5px;
+      font-weight: bold; }
+      .design-archives ul li a {
+        text-decoration: none !important;
+        color: #e9ab73;
+        font-family: "Merienda One", cursive;
+        font-size: 14px; }
+
+  .zen-resources h3 {
+    font-size: 14px;
+    color: #e9ab73;
+    font-family: "Merienda One", cursive; }
+  .zen-resources ul {
+    list-style-type: hiragana-iroha; }
+    .zen-resources ul li {
+      background-color: #026440;
+      color: #422D00;
+      border: 3px solid #262627;
+      border-radius: 5px;
+      font-weight: bold; }
+      .zen-resources ul li a {
+        text-decoration: none !important;
+        color: #e9ab73;
+        font-family: "Merienda One", cursive;
+        font-size: 14px; }
+
+  footer a {
+    text-decoration: none;
+    color: #422D00;
+    font-weight: bold;
+    font-family: "Merienda One", cursive;
+    font-size: 14px; }
+    footer a:hover {
+      background-color: #d9c09e; } }
+#css-zen-garden {
+  background-color: #E6F0D1; }
+
+/*# sourceMappingURL=style.css.map */
